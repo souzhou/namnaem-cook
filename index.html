@@ -1,0 +1,268 @@
+<!doctype html>
+<html>
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Jua&display=swap" rel="stylesheet">
+  <link
+    href="https://fonts.googleapis.com/css2?family=Jua&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap"
+    rel="stylesheet">
+
+  <style>
+    .jua-regular {
+      font-family: "Jua", sans-serif;
+      font-weight: 400;
+      font-style: normal;
+    }
+
+    .lato-thin {
+      font-family: "Lato", sans-serif;
+      font-weight: 100;
+      font-style: normal;
+    }
+
+    .lato-light {
+      font-family: "Lato", sans-serif;
+      font-weight: 300;
+      font-style: normal;
+    }
+
+    .lato-regular {
+      font-family: "Lato", sans-serif;
+      font-weight: 400;
+      font-style: normal;
+    }
+
+    .lato-bold {
+      font-family: "Lato", sans-serif;
+      font-weight: 700;
+      font-style: normal;
+    }
+  </style>
+</head>
+
+<body>
+  <div class="absolute flex flex-row justify-end items-center w-full absolute h-10 bg-white/30">
+    <div class="flex flex-row gap-10 mx-10">
+      <a class="lato-bold text-md hover:text-white" href="#">Home</a>
+      <a class="lato-bold text-md hover:text-white" href="#">Menu</a>
+      <a class="lato-bold text-md hover:text-white" href="#">Contact</a>
+    </div>
+  </div>
+
+  </div>
+  <div class="flex flex-col md:flex-row">
+    <div class="flex flex-1 flex-col flex-nowrap items-center mt-5 px-3">
+      <a href="#"><img class="h-100 w-100 md:h-70 md:w-70" src="./public/img/logo_large.png" /></a>
+      <h1 class="jua-regular text-black/70 text-7xl md:text-6xl xl:text-7xl">namnaemcook</h1>
+      <p
+        class="lato-regular text-center text-2xl my-8  leading-10 text-black/50 max-w-100 mx-10 md:text-xl md:leading-7 md:my-9  md:max-w-120 lg:max-w-150 lg:leading-9 xl:leading-10">
+        Craving a meal that feels like home? Our homemade dishes are crafted with the freshest ingredients, bursting
+        with flavor and packed with wholesome goodness. Each bite is a celebration of health, taste, and just the right
+        amount of spice to tantalize your taste buds. Let us bring the warmth of our kitchen straight to your door!
+      </p>
+      <div class="flex flex-row gap-6 mb-10">
+        <a href="#"><img class="h-10" href="#" src="./public/img/icons_social_ig.png" /></a>
+        <a href="#"><img class="h-10" href="#" src="./public/img/icons_social_fb.png" /></a>
+        <a href="#"><img class="h-10" href="#" src="./public/img/icons_social_line.png" /></a>
+      </div>
+    </div>
+    <div class=" flex-row flex-1 justify-end items-end justify-items-end">
+      <img class="w-full h-dvh min-h-194 ml-auto object-cover" src="./public/img/header_image_original.png" />
+    </div>
+  </div>
+  <div class="flex flex-col items-center min-h-170 bg-lime-200/80 gap-2 mb-20 mt-5">
+    <h1 class="jua-regular text-black/80 text-7xl xl:text-8xl mt-20">Ingredients</h1>
+    <div class="flex flex-col gap-6 mt-6 mb-16 md:flex-row">
+      <div class="flex flex-col items-center gap-7">
+        <img class="h-60" src="./public/img/icons_ingredients_fresh.png" />
+        <h2 class="jua-regular text-black/70 text-5xl">Fresh</h2>
+        <p class="lato-bold text-xl text-black/40 max-w-100 text-center">We get all our ingredients fresh from the
+          local market.</p>
+      </div>
+      <div class="flex flex-col items-center gap-7">
+        <img class="h-60" src="./public/img/icons_ingredients_chili.png" />
+        <h2 class="jua-regular text-black/70 text-5xl">Spicy</h2>
+        <p class="lato-bold text-xl text-black/40 max-w-100 text-center">Our chili’s are sourced from the northern
+          regions of Thailand for that extra kick.</p>
+      </div>
+      <div class="flex flex-col items-center gap-7">
+        <img class="h-60" src="./public/img/icons_ingredients_lowcal.png" />
+        <h2 class="jua-regular text-black/70 text-5xl">Low Cal</h2>
+        <p class="lato-bold text-xl text-black/40 max-w-100 text-center">We use mostly ingredients low with calories.
+        </p>
+      </div>
+    </div>
+  </div>
+  <div class="bg-rose-200 flex flex-col mb-20">
+    <div class="columns-1 gap-20 flex flex-col items-center md:columns-2 md:items-start md:flex-row">
+      <img class="md:relative md:bottom-10 w-1/1 max-w-160 h-160 object-cover" src="public/img/menu_spring-rolls.png" />
+      <div class="w-full h-auto flex flex-row items-center justify-center p-6 pb-20  md:min-h-160">
+        <p class="text-center md:text-left text-black/40 lato-light text-3xl leading-11 max-w-160">
+          Don’t miss out on our tasty spring rolls, available in two sizes and two flavors! Choose our classic with
+          perfectly seasoned glass noodles, or go for our rich and savory ham and cheese rolls, a twist on the
+          traditional
+          favorite. Crispy on the outside and bursting with flavor inside, our spring rolls are the perfect snack for
+          any
+          occasion. Try them both and discover your favorite!
+        </p>
+      </div>
+    </div>
+
+    <div class="columns-1 flex flex-col items-center md:columns-2 md:items-start md:flex-row">
+      <div class="order-1 w-full h-auto flex flex-row items-center justify-center p-6 pb-20 md:min-h-160 md:order-0">
+        <p class=" text-center md:text-left text-black/40 lato-light text-3xl leading-11 max-w-160">
+          Discover the flavors of our signature fermented pork salad, ยำแหนม. This dish is not only delicious but also
+          conveniently long-lasting. Whenever hunger strikes, simply grab, mix, and enjoy—it's that easy! As part of our
+          special promotion, when you purchase 3 packs, you'll get a serving of crispy spring rolls absolutely free.
+        </p>
+      </div>
+      <img class="md:relative md:top-10 w-1/1 max-w-160 h-160 object-cover"
+        src="public/img/menu_spicy-pork-salad.png" />
+    </div>
+  </div>
+
+  <div class="bg-white flex flex-col">
+    <div class="columns-1 flex flex-col items-center md:columns-2 md:items-start md:flex-row">
+      <img class="w-1/1 max-w-160 h-160 object-cover" src="public/img/menu_rice-balls.png" />
+      <div class="w-full h-auto flex flex-row items-center justify-center p-6 pb-8 md:pb-26 md:min-h-160">
+        <p class="text-center md:text-left text-black/40 lato-light text-4xl leading-11 max-w-160">
+          Experience the authentic taste of Thailand with our signature rice balls, known as 'คลุก.' Handcrafted with
+          care, these flavorful delights combine perfectly cooked rice with a medley of fresh herbs, spices, and
+          traditional ingredients.
+        </p>
+      </div>
+    </div>
+
+    <div class="columns-1 flex flex-col items-center md:columns-2 md:items-start md:flex-row md:my-10">
+      <div class="order-1 w-full h-auto flex flex-row items-center justify-center p-6 md:min-h-160 md:order-0">
+        <p class="text-center md:text-left text-black/40 lato-light text-4xl leading-11 max-w-160">
+          Our thoughtfully designed packaging ensures your food stays fresh and flavorful, preserving its quality from
+          our kitchen to your doorstep. Durable and secure, it's perfect for shipping.
+        </p>
+      </div>
+      <img class="w-1/1 max-w-160 h-160 object-cover" src="public/img/menu_packaging.png" />
+    </div>
+  </div>
+
+  <!-- <div class="h-140 md:h-170 lg:h-120 bg-zinc-900 flex flex-col items-center">
+    <img class="w-full min-h-80 opacity-28 object-cover" src="./public/img/banner_fermented.png" />
+    <h1 class="lato-thin text-white text-6xl relative bottom-1/2 text-center md:text-7xl xl:text-8xl md:bottom-1/3">
+      What’s your favorite fermented food?</h1>
+  </div>
+  <div class="h-200 bg-white flex flex-col items-center">
+    <img class="max-w-140 w-80 relative bottom-40 md:w-130 md:bottom-60" src="./public/img/fermented-sausage.png" />
+  </div> -->
+
+  <div class="flex flex-col items-center md:flex-row">
+    <div
+      class="flex flex-col gap-10 items-center md:items-start bg-lime-200/80 min-w-120 w-full md:w-2/3 md:pl-15 pb-16">
+      <h1 class="jua-regular text-center md:text-left text-6xl text-black/70 mt-20">Order here</h1>
+      <p class="lato-regular text-center md:text-left text-xl text-black/50 max-w-90 leading-9 ">If you would like to
+        order something
+        you can
+        contact us on
+        our social media pages, give us a call or use the
+        form to send us a mail. We are looking forward to hear from you! </p>
+      <div class="flex flex-col gap-5">
+        <div>
+          <a class="lato-light  text-lg text-black/50" href="#">
+            <img class="h-10 pr-4 inline" href="#" src="./public/img/icon_contact_phone.png">
+            0648856656
+          </a>
+        </div>
+        <div>
+          <a class="lato-light  text-lg text-black/50" href="#">
+            <img class="h-10 pr-4 inline" href="#" src="./public/img/icon_contact_line.png">
+            sanamzsanamzz
+          </a>
+        </div>
+        <div>
+          <a class="lato-light  text-lg text-black/50" href="#">
+            <img class="h-10 pr-4 inline" href="#" src="./public/img/icon_contact_fb.png">
+            sanamzsanamzz
+          </a>
+        </div>
+        <div>
+          <a class="lato-light  text-lg text-black/50" href="#">
+            <img class="h-10 pr-4 inline" href="#" src="./public/img/icon_contact_ig.png">
+            namnaemcook
+          </a>
+        </div>
+      </div>
+    </div>
+    <div class="flex flex-col items-center w-full">
+      <form class="mt-20 md:w-full"></form>
+      <div class="w-2/3 flex flex-col gap-5">
+        <div class="flex flex-col gap-2 md:flex-row md:gap-10">
+          <div class="flex-1">
+            <label class="block uppercase tracking-wide text-gray-700 text-xs font-bold mb-2" for="form-first-name">
+              First Name
+            </label>
+            <input
+              class="appearance-none block w-full bg-gray-200 text-gray-700 border border-gray-200 rounded py-3 px-4 leading-tight focus:outline-none focus:bg-white focus:border-gray-500"
+              id="form-first-name" type="text" placeholder="" />
+            <!-- <p class="text-red-500 text-xs italic">Please fill out this field.</p> -->
+          </div>
+          <div class="flex-1">
+            <label class="block uppercase tracking-wide text-gray-700 text-xs font-bold mb-2" for="form-last-name">
+              Last Name
+            </label>
+            <input
+              class="appearance-none block w-full bg-gray-200 text-gray-700 border border-gray-200 rounded py-3 px-4 leading-tight focus:outline-none focus:bg-white focus:border-gray-500"
+              id="form-first-name" type="text" placeholder="" />
+            <!-- <p class="text-red-500 text-xs italic">Please fill out this field.</p> -->
+          </div>
+        </div>
+
+        <div class="flex">
+          <div class="grow">
+            <label class="block uppercase tracking-wide text-gray-700 text-xs font-bold mb-2" for="form-mail">
+              E-Mail
+            </label>
+            <input
+              class="appearance-none block w-full bg-gray-200 text-gray-700 border border-gray-200 rounded py-3 px-4 leading-tight focus:outline-none focus:bg-white focus:border-gray-500"
+              id="form-mail" type="text" placeholder="" />
+            <!-- <p class="text-red-500 text-xs italic">Please fill out this field.</p> -->
+          </div>
+        </div>
+
+        <div class="flex flex-wrap gap-10">
+          <div class="grow">
+            <label class="block uppercase tracking-wide text-gray-700 text-xs font-bold mb-2" for="form-phone">
+              Phone number
+            </label>
+            <input
+              class="appearance-none block w-full bg-gray-200 text-gray-700 border border-gray-200 rounded py-3 px-4 leading-tight focus:outline-none focus:bg-white focus:border-gray-500"
+              id="form-phone" type="text" placeholder="" />
+            <!-- <p class="text-red-500 text-xs italic">Please fill out this field.</p> -->
+          </div>
+        </div>
+
+
+        <div class="flex flex-wrap gap-10">
+          <div class="grow">
+            <label class="block uppercase tracking-wide text-gray-700 text-xs font-bold mb-2" for="form-message">
+              Message
+            </label>
+            <textarea
+              class="appearance-none block w-full h-40 bg-gray-200 text-gray-700 border border-gray-200 rounded py-3 px-4 leading-tight focus:outline-none focus:bg-white focus:border-gray-500"
+              id="form-message" placeholder="Tell us what you would like to order..."></textarea>
+            <!-- <p class="text-red-500 text-xs italic">Please fill out this field.</p> -->
+          </div>
+        </div>
+
+      </div>
+      </form>
+    </div>
+  </div>
+  <div class="w-full border-1 border-gray-200 p-4 mt-8">
+    <p class="lato-light text-md text-black/40">© 2025 Namnaemcook. All rights reserved.</p>
+  </div>
+</body>
+
+</html>
